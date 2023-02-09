@@ -4,7 +4,7 @@ import {ProductConsumer} from './ContextApi'
 import {Link} from 'react-router-dom'
 export default class extends Component {
   render() {
-    return (
+    return ( 
         <ProductConsumer>
             {value => {
 

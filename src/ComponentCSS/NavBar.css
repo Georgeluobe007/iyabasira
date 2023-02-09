@@ -89,3 +89,17 @@ height: 18rem;
 .card:hover{
    transform: scale(1.2); 
 }
+
+@media only screen and (max-width:500px){
+    .data-fetch{
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.column{
+    margin-left: 7rem;
+}
+.footer{
+  margin-right: 5rem;
+}
+
+}

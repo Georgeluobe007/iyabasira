@@ -4,9 +4,10 @@ export default class
  extends Component {
   render() {
     return (
-      <div className='cart-line'>
-  <div className='cart-image-div'>
-    <h3>IMAGE</h3>
+      <div>
+        <div className='cart-line'> 
+  <div>
+    <h3 >IMAGE</h3>
   </div>
   <div>
     <h3>PRICE</h3>
@@ -21,6 +22,7 @@ export default class
     <h3>TOTAL</h3>
   </div>
   
+      </div>
       </div>
     )
   }

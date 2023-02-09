@@ -27,9 +27,16 @@
     border-radius: 0.5rem;
    }
    .gotocart{
-   
     width: 5rem;
+    height: 3rem;
     border: none;
     border-radius: 0.5rem;
     justify-content: center;
+   }
+   .modal-button{
+    background-color: blue;
+    width: 20rem;
+   justify-content: center;
+   align-items: center;
+   display: flex;
    }

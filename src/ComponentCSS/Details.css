@@ -68,3 +68,12 @@ flex-direction: row;
 .paragraph{
  margin-top: 0.5rem;
 }
+@media only screen and (max-width:500px){
+    .detail-component{
+       background-color: transparent;
+       }
+       .name-of-food{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+     }
+}
