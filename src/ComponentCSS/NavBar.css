@@ -96,10 +96,10 @@ height: 18rem;
     grid-template-columns: repeat(1,1fr);
 }
 .column{
-    margin-left: 7rem;
+    margin-left: 4rem;
 }
 .footer{
   margin-right: 5rem;
 }
-
+ 
 }
