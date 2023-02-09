@@ -1,0 +1,70 @@
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.detail-component{
+ width: 40rem;
+ height: 30rem;
+ background-color: red;
+ align-items: center;
+flex-direction: column;
+ display: flex;
+ margin-top: 2rem;
+}
+.name-of-food{
+   font-size: 2rem;
+   text-transform: capitalize;
+}
+.image-about{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;
+
+}
+.aboutFood{
+    margin-left: 2rem;
+    font-size: 1rem;
+   font-family: cursive;
+}
+.about-abt{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.backTostore{
+    margin-right: 2rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.backTostore:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.buy:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.buy{
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    justify-content: center;
+  
+}
+.incart-shop{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.paragraph{
+ margin-top: 0.5rem;
+}

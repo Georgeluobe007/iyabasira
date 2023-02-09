@@ -1,0 +1,91 @@
+.nav-bar{
+    background-color: blue;
+    display: flex;
+  
+}
+.letf-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-image{
+    margin-left: 1rem;
+}
+.nav-link{
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+.product-link{
+    text-decoration: none;
+    color: white;
+}
+.product-link:hover{
+    color: white;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+   width: 20rem;
+   display: flex;
+   flex-direction: row;
+   border: 0px solid;
+   align-items: center;
+   background-color: transparent;
+   margin-top: 1rem;
+   transition: all 1s linear;
+ overflow: hidden;
+}
+.product-page{
+width: 18rem;
+height: 18rem;
+}
+.data-fetch{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.column{
+    margin-left: 1rem;
+}
+.incart-btn{
+    background-color: DodgerBlue;
+    border: 0px solid;
+    transition: all 1s linear;
+   margin-top: 12rem;
+    border-radius: 0.5rem 0 0 0;
+    font-size: 2rem;
+    transform: translate(-100%,-100%);
+   
+}
+.card:hover.incart-btn{
+    transform: translate(0,0);
+}
+.incart-btn:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.naira{
+    font-size: 1.5rem;
+}
+.food-name{
+    margin-right: 2rem;
+}
+.card:hover{
+   transform: scale(1.2); 
+}

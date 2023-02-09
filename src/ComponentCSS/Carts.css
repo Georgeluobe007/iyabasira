@@ -1,0 +1,77 @@
+
+.cart-empty-statement{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.statement{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart-line{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+   
+}
+.cart-item-pics{
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  
+}
+.quantity{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+.btn-negative{
+  margin-right: 1rem;
+}
+.btn-negative:hover{
+  background-color: black;
+  color: white;
+}
+.btn-positive{
+margin-left: 1rem;
+}
+.btn-positive:hover{
+  background-color: black;
+  color: white;
+}
+.delete-btn{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.div-totals{
+  justify-content: end;
+  align-items: center;
+  display: flex;
+  margin-right: 5rem;
+}
+.totals-work{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.clearCart-btn{
+  height: 3rem;
+  width: 7rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+.clearCart-btn:hover{
+  background-color: red;
+  color: white;
+}
+.sub-total{
+  display: flex;
+  flex-direction: column;
+  
+}
+.font-style{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

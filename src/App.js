@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import FoodPage from "./Components/FoodPage";
+import {Route,Routes} from 'react-router-dom'
+import NavBar from "./Components/NavBar";
+import Details from "./Components/Details";
+import Modal from "./Components/Modal";
 
+import Cart from "./Components/Cart";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <Routes>
+        <Route path="/" element={<FoodPage/>}/>
+        <Route path="/details" element={<Details/>}/>
+        <Route path="/cart" element={<Cart/>}/>
+      </Routes>
+    <Modal/>
     </div>
   );
 }

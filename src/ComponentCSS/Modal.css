@@ -1,0 +1,35 @@
+.container{
+  position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 5rem;
+}
+.detail-component1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    position: fixed;
+ 
+   }
+   .image-modal{
+    width: 20rem;
+    height: 20rem;
+   }
+   .back-shop{
+    margin-right: 1rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+   }
+   .gotocart{
+   
+    width: 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    justify-content: center;
+   }
