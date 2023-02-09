@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import {ProductConsumer} from './ContextApi'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 export default class ProductPage extends Component {
   render() {
     const {id,picture,inCart,nameOfFood,price} = this.props.products
@@ -28,7 +29,7 @@ export default class ProductPage extends Component {
        >
      {inCart ? (<p className='incat-state' disabled>
      inCart
-     </p>):(<img src='picture/basket3.jpg' style={{width:"1.5rem",height:"1.5rem"}}/>) }
+     </p>):(<ShoppingCartIcon style={{width:"1.5rem",height:"1.5rem",color:"blue"}}/>) }
        </button>
        </div>
       </div>

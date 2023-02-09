@@ -3,7 +3,6 @@ import {Route,Routes} from 'react-router-dom'
 import NavBar from "./Components/NavBar";
 import Details from "./Components/Details";
 import Modal from "./Components/Modal";
-
 import Cart from "./Components/Cart";
 function App() {
   return (
